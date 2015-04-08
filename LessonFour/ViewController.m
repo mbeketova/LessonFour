@@ -58,8 +58,7 @@
     NSString * stringRadius = @"9,2/6,7/9,2 - 9,3/6,8/9,3, 6.2 - 6.5 - 6.8, 7,7 - 7,9 - 8,1 - 8,3, 5 - 5,5 - 6 - 6,5, 7,55 - 7,65, 11.1/5.8/11.1 - 11.2/6.2/11.2 ";
     NSString * stringRidingStyle = @"Freestyle / Freeride, All mountain, Freestyle / Freeride, All mountain, All mountain, Freestyle / Freeride";
     NSString * stringHardness = @"5, N/A, Moderate, Soft - Moderate, 4, N/A";
-    
-    self.dictSnow = [[NSDictionary alloc]init];//инициализируем массив, куда будем записывать данные
+
     
     
     
