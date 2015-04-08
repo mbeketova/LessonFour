@@ -14,6 +14,17 @@
 		84354B841AD483FB00812782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84354B831AD483FB00812782 /* Images.xcassets */; };
 		84354B871AD483FB00812782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84354B851AD483FB00812782 /* LaunchScreen.xib */; };
 		84354B931AD483FB00812782 /* LessonFourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84354B921AD483FB00812782 /* LessonFourTests.m */; };
+		84354B9E1AD48E6700812782 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84354B9D1AD48E6700812782 /* UIKit.framework */; };
+		84354BA01AD48E6F00812782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84354B9F1AD48E6F00812782 /* Foundation.framework */; };
+		84354BA21AD48E8300812782 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84354BA11AD48E8300812782 /* CoreGraphics.framework */; };
+		84354BA41AD48E9200812782 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84354BA31AD48E9200812782 /* QuartzCore.framework */; };
+		84354BA71AD48F5600812782 /* DatailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84354BA61AD48F5600812782 /* DatailViewController.m */; };
+		84354BA91AD4CFC100812782 /* Ride Hellcat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354BA81AD4CFC100812782 /* Ride Hellcat.jpg */; };
+		84354BAB1AD4CFCA00812782 /* Nitro Mystique.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354BAA1AD4CFCA00812782 /* Nitro Mystique.jpg */; };
+		84354BAD1AD4CFD500812782 /* USD Pro Devilfish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354BAC1AD4CFD400812782 /* USD Pro Devilfish.jpg */; };
+		84354BAF1AD4CFE100812782 /* USD Pro Fleur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354BAE1AD4CFE100812782 /* USD Pro Fleur.jpg */; };
+		84354BB11AD4CFE900812782 /* Bataleon Push up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354BB01AD4CFE900812782 /* Bataleon Push up.jpg */; };
+		84354BB31AD4CFEE00812782 /* Nitro Runaway.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354BB21AD4CFEE00812782 /* Nitro Runaway.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,18 @@
 		84354B8C1AD483FB00812782 /* LessonFourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LessonFourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84354B911AD483FB00812782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84354B921AD483FB00812782 /* LessonFourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonFourTests.m; sourceTree = "<group>"; };
+		84354B9D1AD48E6700812782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84354B9F1AD48E6F00812782 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84354BA11AD48E8300812782 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84354BA31AD48E9200812782 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84354BA51AD48F5600812782 /* DatailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatailViewController.h; sourceTree = "<group>"; };
+		84354BA61AD48F5600812782 /* DatailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatailViewController.m; sourceTree = "<group>"; };
+		84354BA81AD4CFC100812782 /* Ride Hellcat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ride Hellcat.jpg"; sourceTree = "<group>"; };
+		84354BAA1AD4CFCA00812782 /* Nitro Mystique.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nitro Mystique.jpg"; sourceTree = "<group>"; };
+		84354BAC1AD4CFD400812782 /* USD Pro Devilfish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "USD Pro Devilfish.jpg"; sourceTree = "<group>"; };
+		84354BAE1AD4CFE100812782 /* USD Pro Fleur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "USD Pro Fleur.jpg"; sourceTree = "<group>"; };
+		84354BB01AD4CFE900812782 /* Bataleon Push up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bataleon Push up.jpg"; sourceTree = "<group>"; };
+		84354BB21AD4CFEE00812782 /* Nitro Runaway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nitro Runaway.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +70,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84354BA41AD48E9200812782 /* QuartzCore.framework in Frameworks */,
+				84354BA21AD48E8300812782 /* CoreGraphics.framework in Frameworks */,
+				84354BA01AD48E6F00812782 /* Foundation.framework in Frameworks */,
+				84354B9E1AD48E6700812782 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,11 @@
 		84354B6A1AD483FA00812782 = {
 			isa = PBXGroup;
 			children = (
+				84354BA31AD48E9200812782 /* QuartzCore.framework */,
+				84354BA11AD48E8300812782 /* CoreGraphics.framework */,
+				84354B9F1AD48E6F00812782 /* Foundation.framework */,
+				84354B9D1AD48E6700812782 /* UIKit.framework */,
+				84354B9C1AD48B6300812782 /* Detail View */,
 				84354B751AD483FA00812782 /* LessonFour */,
 				84354B8F1AD483FB00812782 /* LessonFourTests */,
 				84354B741AD483FA00812782 /* Products */,
@@ -117,6 +149,21 @@
 				84354B911AD483FB00812782 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84354B9C1AD48B6300812782 /* Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				84354BB21AD4CFEE00812782 /* Nitro Runaway.jpg */,
+				84354BB01AD4CFE900812782 /* Bataleon Push up.jpg */,
+				84354BAC1AD4CFD400812782 /* USD Pro Devilfish.jpg */,
+				84354BAA1AD4CFCA00812782 /* Nitro Mystique.jpg */,
+				84354BA81AD4CFC100812782 /* Ride Hellcat.jpg */,
+				84354BAE1AD4CFE100812782 /* USD Pro Fleur.jpg */,
+				84354BA51AD48F5600812782 /* DatailViewController.h */,
+				84354BA61AD48F5600812782 /* DatailViewController.m */,
+			);
+			name = "Detail View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +246,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84354BAF1AD4CFE100812782 /* USD Pro Fleur.jpg in Resources */,
+				84354BA91AD4CFC100812782 /* Ride Hellcat.jpg in Resources */,
 				84354B821AD483FB00812782 /* Main.storyboard in Resources */,
+				84354BAB1AD4CFCA00812782 /* Nitro Mystique.jpg in Resources */,
+				84354BB31AD4CFEE00812782 /* Nitro Runaway.jpg in Resources */,
 				84354B871AD483FB00812782 /* LaunchScreen.xib in Resources */,
 				84354B841AD483FB00812782 /* Images.xcassets in Resources */,
+				84354BB11AD4CFE900812782 /* Bataleon Push up.jpg in Resources */,
+				84354BAD1AD4CFD500812782 /* USD Pro Devilfish.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +275,7 @@
 				84354B7F1AD483FA00812782 /* ViewController.m in Sources */,
 				84354B7C1AD483FA00812782 /* AppDelegate.m in Sources */,
 				84354B791AD483FA00812782 /* main.m in Sources */,
+				84354BA71AD48F5600812782 /* DatailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +468,7 @@
 				84354B981AD483FB00812782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84354B991AD483FB00812782 /* Build configuration list for PBXNativeTarget "LessonFourTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +477,7 @@
 				84354B9B1AD483FB00812782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
