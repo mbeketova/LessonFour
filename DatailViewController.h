@@ -21,4 +21,8 @@
 @property (weak, nonatomic) IBOutlet UIButton *detailDescript;
 
 
+
+
+
+
 @end

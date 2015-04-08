@@ -27,26 +27,12 @@
     UIImage * image = [UIImage imageNamed: [NSString stringWithFormat:@"%@.jpg", self.string_MainValue]];
     self.label_imageView.image = image;
     
- //планирую еще на кнопку технические характеристики привязать еще один вьюконтроллер с табличкой, подумаю оставшееся до следующего занятия время. 
+
     
     
-    
-    
-    
-    
+        
 }
 
 
-
-
-
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-
-}
-
-
-
+    
 @end

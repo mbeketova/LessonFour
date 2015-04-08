@@ -154,8 +154,8 @@
 		84354B9C1AD48B6300812782 /* Detail View */ = {
 			isa = PBXGroup;
 			children = (
-				84354BB21AD4CFEE00812782 /* Nitro Runaway.jpg */,
 				84354BB01AD4CFE900812782 /* Bataleon Push up.jpg */,
+				84354BB21AD4CFEE00812782 /* Nitro Runaway.jpg */,
 				84354BAC1AD4CFD400812782 /* USD Pro Devilfish.jpg */,
 				84354BAA1AD4CFCA00812782 /* Nitro Mystique.jpg */,
 				84354BA81AD4CFC100812782 /* Ride Hellcat.jpg */,
