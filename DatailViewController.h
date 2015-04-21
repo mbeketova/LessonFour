@@ -14,15 +14,12 @@
 @property (weak, nonatomic) NSString *string_textView;
 @property (weak, nonatomic) NSString *string_MainPrice;
 
-@property (weak, nonatomic) IBOutlet UILabel *label_MainValue;
-@property (weak, nonatomic) IBOutlet UITextView *label_textView;
-@property (weak, nonatomic) IBOutlet UIImageView *label_imageView;
-@property (weak, nonatomic) IBOutlet UILabel *label_MainPrice;
-@property (weak, nonatomic) IBOutlet UIButton *detailDescript;
 
+@property (weak, nonatomic) IBOutlet UILabel *label_Value;
 
+@property (weak, nonatomic) IBOutlet UILabel *label_Price;
 
-
-
+@property (weak, nonatomic) IBOutlet UITextView *label_TextView;
+@property (weak, nonatomic) IBOutlet UIImageView *label_ImageView;
 
 @end

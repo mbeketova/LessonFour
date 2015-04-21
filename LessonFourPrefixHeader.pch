@@ -1,0 +1,15 @@
+//
+//  LessonFourPrefixHeader.pch
+//  LessonFour
+//
+//  Created by Admin on 19.04.15.
+//  Copyright (c) 2015 Mariya Beketova. All rights reserved.
+//
+
+#ifndef LessonFour_LessonFourPrefixHeader_pch
+#define LessonFour_LessonFourPrefixHeader_pch
+
+#import "AppConstants.h"
+#import "NSNotificationCenter+NotOptions.h"
+
+#endif

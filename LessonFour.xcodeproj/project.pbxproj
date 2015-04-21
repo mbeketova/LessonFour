@@ -25,6 +25,10 @@
 		84354BAF1AD4CFE100812782 /* USD Pro Fleur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354BAE1AD4CFE100812782 /* USD Pro Fleur.jpg */; };
 		84354BB11AD4CFE900812782 /* Bataleon Push up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354BB01AD4CFE900812782 /* Bataleon Push up.jpg */; };
 		84354BB31AD4CFEE00812782 /* Nitro Runaway.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84354BB21AD4CFEE00812782 /* Nitro Runaway.jpg */; };
+		84AAFC831AE310210048B199 /* ArraySnow.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAFC821AE310210048B199 /* ArraySnow.m */; };
+		84C078281AE31B2E0054C6D3 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C078271AE31B2E0054C6D3 /* MenuViewController.m */; };
+		84F359081AE35450006C6CDE /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F359071AE35450006C6CDE /* CustomTableViewCell.m */; };
+		84F359171AE368F5006C6CDE /* NSNotificationCenter+NotOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F359161AE368F5006C6CDE /* NSNotificationCenter+NotOptions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,16 @@
 		84354BAE1AD4CFE100812782 /* USD Pro Fleur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "USD Pro Fleur.jpg"; sourceTree = "<group>"; };
 		84354BB01AD4CFE900812782 /* Bataleon Push up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bataleon Push up.jpg"; sourceTree = "<group>"; };
 		84354BB21AD4CFEE00812782 /* Nitro Runaway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nitro Runaway.jpg"; sourceTree = "<group>"; };
+		84AAFC811AE310210048B199 /* ArraySnow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArraySnow.h; path = LessonFour/ArraySnow.h; sourceTree = "<group>"; };
+		84AAFC821AE310210048B199 /* ArraySnow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArraySnow.m; path = LessonFour/ArraySnow.m; sourceTree = "<group>"; };
+		84C078261AE31B2E0054C6D3 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = LessonFour/MenuViewController.h; sourceTree = "<group>"; };
+		84C078271AE31B2E0054C6D3 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = LessonFour/MenuViewController.m; sourceTree = "<group>"; };
+		84F359061AE35450006C6CDE /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableViewCell.h; path = LessonFour/CustomTableViewCell.h; sourceTree = "<group>"; };
+		84F359071AE35450006C6CDE /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTableViewCell.m; path = LessonFour/CustomTableViewCell.m; sourceTree = "<group>"; };
+		84F359131AE365AE006C6CDE /* AppConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		84F359141AE366B4006C6CDE /* LessonFourPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LessonFourPrefixHeader.pch; sourceTree = "<group>"; };
+		84F359151AE368F5006C6CDE /* NSNotificationCenter+NotOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+NotOptions.h"; sourceTree = "<group>"; };
+		84F359161AE368F5006C6CDE /* NSNotificationCenter+NotOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+NotOptions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +104,14 @@
 		84354B6A1AD483FA00812782 = {
 			isa = PBXGroup;
 			children = (
+				84F359151AE368F5006C6CDE /* NSNotificationCenter+NotOptions.h */,
+				84F359161AE368F5006C6CDE /* NSNotificationCenter+NotOptions.m */,
+				84F359141AE366B4006C6CDE /* LessonFourPrefixHeader.pch */,
+				84F359131AE365AE006C6CDE /* AppConstants.h */,
+				84F3590C1AE36391006C6CDE /* ArraySnow */,
+				84F3590B1AE36374006C6CDE /* Custom TableView */,
+				84F3590A1AE36352006C6CDE /* Menu View */,
+				84F359091AE36340006C6CDE /* image */,
 				84354BA31AD48E9200812782 /* QuartzCore.framework */,
 				84354BA11AD48E8300812782 /* CoreGraphics.framework */,
 				84354B9F1AD48E6F00812782 /* Foundation.framework */,
@@ -154,16 +176,50 @@
 		84354B9C1AD48B6300812782 /* Detail View */ = {
 			isa = PBXGroup;
 			children = (
+				84354BA51AD48F5600812782 /* DatailViewController.h */,
+				84354BA61AD48F5600812782 /* DatailViewController.m */,
+			);
+			name = "Detail View";
+			sourceTree = "<group>";
+		};
+		84F359091AE36340006C6CDE /* image */ = {
+			isa = PBXGroup;
+			children = (
 				84354BB01AD4CFE900812782 /* Bataleon Push up.jpg */,
 				84354BB21AD4CFEE00812782 /* Nitro Runaway.jpg */,
 				84354BAC1AD4CFD400812782 /* USD Pro Devilfish.jpg */,
 				84354BAA1AD4CFCA00812782 /* Nitro Mystique.jpg */,
 				84354BA81AD4CFC100812782 /* Ride Hellcat.jpg */,
 				84354BAE1AD4CFE100812782 /* USD Pro Fleur.jpg */,
-				84354BA51AD48F5600812782 /* DatailViewController.h */,
-				84354BA61AD48F5600812782 /* DatailViewController.m */,
 			);
-			name = "Detail View";
+			name = image;
+			sourceTree = "<group>";
+		};
+		84F3590A1AE36352006C6CDE /* Menu View */ = {
+			isa = PBXGroup;
+			children = (
+				84C078261AE31B2E0054C6D3 /* MenuViewController.h */,
+				84C078271AE31B2E0054C6D3 /* MenuViewController.m */,
+			);
+			name = "Menu View";
+			sourceTree = "<group>";
+		};
+		84F3590B1AE36374006C6CDE /* Custom TableView */ = {
+			isa = PBXGroup;
+			children = (
+				84F359061AE35450006C6CDE /* CustomTableViewCell.h */,
+				84F359071AE35450006C6CDE /* CustomTableViewCell.m */,
+			);
+			name = "Custom TableView";
+			sourceTree = "<group>";
+		};
+		84F3590C1AE36391006C6CDE /* ArraySnow */ = {
+			isa = PBXGroup;
+			children = (
+				84AAFC811AE310210048B199 /* ArraySnow.h */,
+				84AAFC821AE310210048B199 /* ArraySnow.m */,
+			);
+			name = ArraySnow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +329,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84354B7F1AD483FA00812782 /* ViewController.m in Sources */,
+				84F359081AE35450006C6CDE /* CustomTableViewCell.m in Sources */,
+				84C078281AE31B2E0054C6D3 /* MenuViewController.m in Sources */,
 				84354B7C1AD483FA00812782 /* AppDelegate.m in Sources */,
 				84354B791AD483FA00812782 /* main.m in Sources */,
 				84354BA71AD48F5600812782 /* DatailViewController.m in Sources */,
+				84AAFC831AE310210048B199 /* ArraySnow.m in Sources */,
+				84F359171AE368F5006C6CDE /* NSNotificationCenter+NotOptions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +400,8 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/admin/Desktop/LessonFour/LessonFourPrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -381,6 +443,8 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/admin/Desktop/LessonFour/LessonFourPrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -399,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = LessonFour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +474,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = LessonFour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

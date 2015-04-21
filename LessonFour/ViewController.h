@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ArraySnow.h"
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, ArraySnowDelegate>
 
-
+@property (nonatomic, strong) NSMutableArray * arrayM;
+@property (nonatomic, assign) BOOL isFirstArray;
 
 
 

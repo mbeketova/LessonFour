@@ -15,17 +15,18 @@
 
 @implementation DatailViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     
-    self.label_MainValue.text = self.string_MainValue;
-    self.label_textView.text = self.string_textView;
-    self.label_MainPrice.text = [NSString stringWithFormat:@"Цена со скидкой - %@", self.string_MainPrice];
+    self.label_Value.text = self.string_MainValue;
+    self.label_TextView.text = self.string_textView;
+    self.label_Price.text = [NSString stringWithFormat:@"Цена со скидкой - %@", self.string_MainPrice];
     
 
     UIImage * image = [UIImage imageNamed: [NSString stringWithFormat:@"%@.jpg", self.string_MainValue]];
-    self.label_imageView.image = image;
+    self.label_ImageView.image = image;
     
 
     
@@ -33,6 +34,10 @@
         
 }
 
+- (IBAction)button_Back:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+    
+}
 
     
 @end
